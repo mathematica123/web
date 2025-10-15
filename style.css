@@ -2,9 +2,15 @@ body {
   margin: 0;
 }
 
-.hero {
+#home-opener{
   position: relative;
   height: 100vh;
+  background-color: #7091E6;
+}
+
+.hero {
+  position: relative;
+  height: 200vh;
   background: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
     url('Images/mainbg.png') center/cover no-repeat;
