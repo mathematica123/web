@@ -25,3 +25,8 @@ body {
   height: 100px;
   background: rgba(0, 0, 0, 0.3);
 }
+
+#guy{
+  width: 500px;
+  height: 500px;
+}
