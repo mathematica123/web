@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  background-image: url("Images/bg1.png");
+  background-repeat: no-repeat;        
+  background-size: cover;              
+  background-position: center; 
+  image-rendering: pixelated;  
 }
 
 #hero1{
