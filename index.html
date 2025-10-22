@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-    <title>Mathematica123</title>
+  <head>
+     <title>Mathematica123</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel='stylesheet' href="style.css">
      <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-</head>
-<body>
-    <div id="home-opener"></div>
-    </div>
+  </head>
 
-    <div class="hero">
-      <div class="navbar">
-      </div>
+  <body>
 
-      <img src="Images/hero-pixilart.png" id="guy">
+    <img src="Images/hero-pose1.png" id="hero1">
+    <img src="Images/hero-pose2.png" id="hero2">
 
-    </div>
+    <script>
 
-</body>
+      $(function() {
+        setInterval(function() {
+          $("#hero1, #hero2").toggle(); // switches which one is visible
+        }, 500); // switches every 0.5 seconds
+      });
+
+    </script>
+
+  </body>
+
 </html>
