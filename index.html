@@ -16,6 +16,10 @@
     <script>
 
       $(function() {
+        $("#hero2").hide(); // hides hero2 as soon as page loads
+      });
+
+      $(function() {
         setInterval(function() {
           if ($("#hero1").is(":visible")) {
             $("#hero1").hide();
