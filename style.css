@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -------- Global Styles -------- */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #eef4ff, #ffffff);
+  color: #1f2937;
+}
+
+/* -------- Navbar -------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: transparent;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
+
+.login-btn {
+  background: #2563eb;
+  color: white !important;
+  padding: 8px 18px;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+.login-btn:hover {
+  background: #1d4ed8;
+}
+
+/* -------- Hero Section -------- */
+.hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  text-decoration: none;
+  padding: 12px 26px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+.btn-secondary:hover {
+  background: #eef4ff;
+}
+
+/* -------- Flashcard Preview -------- */
+.preview {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.card-preview {
+  display: inline-block;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 320px;
+}
+
+.card-title {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  background: #dbeafe;
+  color: #1e3a8a;
+  padding: 25px;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.card-subtext {
+  margin-top: 15px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* -------- Footer -------- */
+footer {
+  text-align: center;
+  color: #9ca3af;
+  padding: 40px 0;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 100px;
+  font-size: 0.9rem;
+}
